@@ -115,11 +115,13 @@ function showOne() {
     <div class='mm'>
          <h1>${item.h1}</h1>
         <h4>${item.h4}</h4>
-        <div class='row'>
+        <div class='container'>
+        <div class='row py-5'>
             <div class='col'>
                 <img src='${item.img}' />
             </div>
             <div id='check' class='col'></div>
+        </div>
         </div>
     `
     for (let index = 0; index < item.p.length; index++) {
