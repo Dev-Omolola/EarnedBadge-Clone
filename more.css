@@ -1,0 +1,121 @@
+body {
+    background-color: rgb(255, 247, 241);
+    padding: 0;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+
+}
+
+.nav a {
+    margin: 0 15px;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(254, 132, 42);
+}
+
+.logo a {
+    color: black;
+    text-decoration: none;
+}
+
+#screen {
+    display: flex;
+    flex-wrap: wrap; 
+
+}
+.reinforce h1{
+     color: rgb(254, 132, 42);
+}
+
+.mm {
+    width: 43%;
+    display: flex;
+    margin: 10px 30px;
+    justify-content: space-between;
+}
+.mm div{
+    padding: 10px;
+    margin: 5px;
+}
+ .mm h1{
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 10px;
+ }
+ .mm h4{
+    font-size: 17px;
+ }
+.mm p {
+    display: none;
+}
+
+.mm .img {
+    width: 140px;
+}
+.img img{
+    width: 100%;
+}
+.btn {
+    background-color: rgb(254, 132, 42);
+    color: white
+}
+.btn:hover {
+    background-color: rgb(254, 132, 42);
+    color: white;
+    cursor: pointer;
+    opacity: 0.9;
+}
+.why h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;   
+}
+.port{
+    display: flex;
+    justify-content: space-between;
+}
+.port .porta {
+    width: 30%;   
+}
+.porta div{
+    display: flex;
+    margin: 30px 0;
+}
+.porta span{
+   padding: 0 10px;
+   font-size: 20px;
+   font-weight: 700;
+}
+footer{
+    background-color: rgb(255,225,204);
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+footer i{
+    font-size: 30px;
+    padding: 0 10px;
+}
+footer h4, footer h5{
+    font-weight: 700;
+}
+@media (max-width:769.33px) {
+    .port{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .porta{
+        width: 20%;
+        font-size: 15px;
+    }
+    
+}
