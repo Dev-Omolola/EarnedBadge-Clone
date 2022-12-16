@@ -1,7 +1,7 @@
 body {
     background-color: rgb(255, 247, 241);
     padding: 0;
-
+ box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -79,8 +79,10 @@ nav {
     font-weight: 800;   
 }
 .port{
+    
     display: flex;
     justify-content: space-between;
+    
 }
 .port .porta {
     width: 30%;   
@@ -108,6 +110,35 @@ footer i{
 footer h4, footer h5{
     font-weight: 700;
 }
+@media (max-width:912px) {
+    .mm{
+        width: 100%;
+
+    }
+    .mm h4{
+        font-size: 25px;
+    }
+    footer{
+        height: 30vh;
+    }
+    .reinforce p{
+        font-size: 25px;
+    }
+    
+}
+@media (max-width:820px) {
+    .mm{
+        width: 40%;
+    }
+    
+}
+@media (max-width:768px) {
+    .mm{
+        width: 40%;
+        display: flex;
+
+    }
+}
 @media (max-width:769.33px) {
     .port{
         display: flex;
@@ -118,4 +149,163 @@ footer h4, footer h5{
         font-size: 15px;
     }
     
+}
+@media (max-width:540px) {
+    body{
+        text-align: center;
+    }
+    .mm{
+        width: 100%;
+    }
+    footer{
+        width: 590px;
+    }
+}
+@media (max-width:414px) {
+    body{
+        padding: 0;
+        width: 110%;
+        box-sizing: border-box;
+    }
+    .nav a{
+        display: none;
+    }
+    .mm{
+        width: 100%;
+    }
+    .reinforce{
+        text-align: center;
+    }
+    footer{
+        width: 460px;
+        display: flex;
+        justify-content: space-between;
+        height: 30vh;
+
+    }
+     footer i{
+        font-size: 16px;
+        display: block;
+        padding: 10px 0;
+     }
+     footer h4{
+        font-size: 20px;
+        font-weight: 800;
+     }
+     footer h5{
+        font-size: 16px;
+        font-weight: 600;
+     }
+     .porta span{
+        padding: 0 5px;
+        font-size: 12px;
+    }
+     
+}
+@media (max-width:375px) {
+    body{
+        width: 120%;
+    }
+    .reinforce{
+        text-align: center;
+    }
+    footer h4{
+        font-weight: 800;
+        font-size: 20px;
+    }
+    footer{
+        font-size: 18px;
+    }
+    .why h1{
+        font-size: 30px;
+        margin-left: 25px;
+        padding-top: 10px;
+    
+    }
+    .port{
+        display: flex;
+        justify-content: space-around;
+    }
+    .port .porta{
+        width: 30%;
+        
+        
+    }
+    
+    .porta span{
+        padding: 0 5px;
+        font-size: 12px;
+    }
+    
+}
+@media (max-width:280px) {
+    body{
+        min-width: 380px;
+        box-sizing: border-box;
+        
+    
+    }
+    
+    nav{
+        padding: 0;
+    }
+    .nav a{
+        display: none;
+    }
+    .mm{
+        width: 120%;
+    }
+    .reinforce{
+        padding-top: 25px;
+        padding-bottom: 10px;
+        margin-bottom: 0;
+        text-align: center;
+    }
+    .why{
+        padding: 10px;
+        margin-top: 0;
+        text-align: center;
+        width: 120%;
+    }
+    footer{
+        
+        display: flex;
+        justify-content: space-between;
+        height: 30vh;
+        
+    }
+     footer i{
+        display: block;
+        font-size: 16px;
+        padding: 10px 0;
+     }
+     footer h4{
+        font-size: 20px;
+        font-weight: 800;
+     }
+     footer h5{
+        font-size: 16px;
+        font-weight: 600;
+     }
+     
+     .why h1{
+        font-size: 25px;
+     }
+     .port{
+        max-width: 120%;
+    
+
+     }
+     .port .porta {
+        width: 20%;   
+    }
+    .porta div{
+        display: flex;
+        margin: 10px 0;
+    }
+    .porta span{
+       
+       font-size: 12px;
+       font-weight: 700;
+    }
 }
