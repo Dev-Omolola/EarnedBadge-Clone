@@ -82,6 +82,8 @@ footer{
     display: flex;
     padding-top: 100px;
     justify-content: space-around;
+    position: relative;
+    bottom: 0;
 }
 footer i{
     font-size: 30px;
@@ -126,6 +128,9 @@ li::before{
     footer div{
         padding: 0 10px;
     }
+    footer{
+        width: 600px;
+    }
 }
 @media (max-width:414px) {
     body{
@@ -136,24 +141,41 @@ li::before{
         width: 526px;
     }
 }
-@media (max-width:390px) {
+@media (max-width:393px) {
     body{
         width: 120%;
         text-align: center;
+        box-sizing: border-box;
+    }
+    
+    .mm h1{
+        width: 120%;
+    }
+    nav{
+        padding: 0;
     }
     .nav a{
         display: none;
     }
     footer{
-        width: 480px;
+        width: 550px;
     }
 }
-@media (max-width:280px) {
+@media (max-width:360px) {
     body{
-        width: 500px;
-        
+        width: 130%;
     }
     footer{
-        width: 500px;
+        width: 560px;
     }
+
+}
+@media (max-width:280px) {
+ body{
+    width: 500px;
+ }
+
+footer{
+    width: 600px;
+}
 }

@@ -224,7 +224,7 @@ footer h4, footer h5{
     }
     .port{
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
     }
     .port .porta{
         width: 30%;
